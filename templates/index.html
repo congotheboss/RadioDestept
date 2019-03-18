@@ -1,0 +1,117 @@
+<html>
+    <head>
+        <title></title>
+        
+        <!--Meta (viewpot;Desktopview;)-->
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!--Css-->
+
+        <!-- Font Awesome -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
+
+        <!-- Bootstrap core CSS -->
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap.min.css') }}">
+        <!-- Material Design Bootstrap -->
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/mdb.min.css') }}">
+        <!--Style CSS-->
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+        <!-- Fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:600i" rel="stylesheet">
+    </head>
+    <body style="background-image: url({{ url_for('static', filename='images/bg.jpg') }})">
+        
+        <main class="container_principal" >
+          
+        <div class="container dimensionare_container">
+
+            <div class="row dimensionare_rand">
+                
+                <div class="col">
+                    <div class="card">
+                        <!-- Card image -->
+                        <a href="{{url_for('radio')}}">
+                            <!-- Card image -->
+                            <div class="view overlay">
+                                <img class="card-img-top" src="{{ url_for('static', filename='images/006-radio.png') }} " alt="Card image cap">
+                                <a href="{{url_for('radio')}}">
+                                    <div class="mask rgba-white-slight"></div>
+                                    <h5 class="card-title titlu">Radio</h5>
+                                </a>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="col">
+                    <div class="card">
+                        <!-- Card image -->
+                        <div class="view overlay">
+                            <img class="card-img-top" src="{{ url_for('static', filename='images/003-tools-and-utensils.png') }} "
+                                alt="Card image cap">
+                            <a href="#!">
+                                <div class="mask rgba-white-slight"></div>
+                                <h5 class="card-title titlu">Media</h5>
+                            </a>
+                        </div>            
+                    </div>
+                </div>
+                    
+            </div>
+            <!--Randul 2 -->
+            <div class="row dimensionare_rand">
+            
+            <div class="col">
+                <div class="card">
+            
+                    <!-- Card image -->
+                    <div class="view overlay">
+                        <img class="card-img-top" src="{{ url_for('static', filename='images/002-alexa.png') }} "
+                            alt="Card image cap">
+                        <a href="#!">
+                            <div class="mask rgba-white-slight"></div>
+                            <h5 class="card-title titlu">Alexa</h5>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+                <!-- Coloana 2 Randul 2 cu 4 Chenare--> 
+                        <div class="col">
+                            <div class="card">
+                            <a href="{{url_for('camera')}}">
+                                    <!-- Card image -->
+                                    <div class="view overlay">
+                                        <img class="card-img-top" src="{{ url_for('static', filename='images/004-bed.png') }} "
+                                            alt="Card image cap">
+                                            <a href="{{url_for('camera')}}">
+                                            <div class="mask rgba-white-slight"></div>
+                                            <h5 class="card-title titlu">Camera</h5>
+                                            </a>
+                                    </div>
+                            </a>
+                            </div>
+                        </div>
+                
+            
+            
+            </div>
+
+        </div>
+        </main>
+        
+
+
+        <!--Script Js-->
+
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+
+        <!-- Bootstrap tooltips -->
+        <script type="text/javascript" src="{{ url_for('static', filename='js/popper.min.js') }}"></script>
+        <!-- Bootstrap core JavaScript -->
+        <script type="text/javascript" src="{{ url_for('static', filename='js/bootstrap.min.js') }}"></script>
+        <!-- MDB core JavaScript -->
+        <script type="text/javascript" src="{{ url_for('static', filename='js/mdb.js') }}"></script>
+
+    </body>
+</html>

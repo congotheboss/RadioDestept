@@ -1,0 +1,428 @@
+{
+    "tari":{
+        "Romania":{
+            "steag":"images/flags/Romania.png",
+            "continent":"Europa",
+            "stati":{
+                "RockFM":{
+                    "title": "RockFM",
+                    "frecventa": "100,6 MHz",
+                    "link": "http://80.86.106.143:9128/rockfm.aacp"
+                },
+                "KissFM":{
+                    "title": "KissFM",
+                    "frecventa": "96,1 MHz",
+                    "link": "http://80.86.106.143:9128/kissfm.aacp"
+                },
+                "RadioZU": {
+                    "tara": "Romania",
+                    "title": "RadioZU",
+                    "frecventa": "89 MHz",
+                    "link": "http://live.romanticfm.ro:9123/radiozu.aacp?t=1550226122"
+                }
+            }
+        },
+        "Grecia":{
+            "steag": "images/flags/Grecia.png",
+            "continent": "Europa",
+            "stati": {
+                "RockFM": {
+                    "title": "RockFM",
+                    "frecventa": "100,6 MHz",
+                    "link": "http://80.86.106.143:9128/rockfm.aacp"
+                },
+                "KissFM": {
+                    "title": "KissFM",
+                    "frecventa": "96,1 MHz",
+                    "link": "http://80.86.106.143:9128/kissfm.aacp"
+                },
+                "RadioZU": {
+                    "tara": "Romania",
+                    "title": "RadioZU",
+                    "frecventa": "89 MHz",
+                    "link": "http://live.romanticfm.ro:9123/radiozu.aacp?t=1550226122"
+                }
+            }
+
+        },
+        "Uk":{
+            "steag": "images/flags/UK.png",
+            "continent": "Europa",
+            "stati": {
+                "RockFM": {
+                    "title": "RockFM",
+                    "frecventa": "100,6 MHz",
+                    "link": "http://80.86.106.143:9128/rockfm.aacp"
+                },
+                "KissFM": {
+                    "title": "KissFM",
+                    "frecventa": "96,1 MHz",
+                    "link": "http://80.86.106.143:9128/kissfm.aacp"
+                },
+                "RadioZU": {
+                    "tara": "Romania",
+                    "title": "RadioZU",
+                    "frecventa": "89 MHz",
+                    "link": "http://live.romanticfm.ro:9123/radiozu.aacp?t=1550226122"
+                }
+            }
+
+        },
+        "Argentina":{
+            "steag": "images/flags/Argentina.png",
+            "continent": "America",
+            "stati": {
+                "RockFM": {
+                    "title": "RockFM",
+                    "frecventa": "100,6 MHz",
+                    "link": "http://80.86.106.143:9128/rockfm.aacp"
+                },
+                "KissFM": {
+                    "title": "KissFM",
+                    "frecventa": "96,1 MHz",
+                    "link": "http://80.86.106.143:9128/kissfm.aacp"
+                },
+                "RadioZU": {
+                    "tara": "Romania",
+                    "title": "RadioZU",
+                    "frecventa": "89 MHz",
+                    "link": "http://live.romanticfm.ro:9123/radiozu.aacp?t=1550226122"
+                }
+            }
+
+        },
+        "Austria":{
+            "steag": "images/flags/Austria.png",
+            "continent": "Europa",
+            "stati": {
+                "RockFM": {
+                    "title": "RockFM",
+                    "frecventa": "100,6 MHz",
+                    "link": "http://80.86.106.143:9128/rockfm.aacp"
+                },
+                "KissFM": {
+                    "title": "KissFM",
+                    "frecventa": "96,1 MHz",
+                    "link": "http://80.86.106.143:9128/kissfm.aacp"
+                },
+                "RadioZU": {
+                    "tara": "Romania",
+                    "title": "RadioZU",
+                    "frecventa": "89 MHz",
+                    "link": "http://live.romanticfm.ro:9123/radiozu.aacp?t=1550226122"
+                }
+            }
+
+        },
+        "Australia":{
+            "steag": "images/flags/Australia.png",
+            "continent": "Oceania",
+            "stati": {
+                "RockFM": {
+                    "title": "RockFM",
+                    "frecventa": "100,6 MHz",
+                    "link": "http://80.86.106.143:9128/rockfm.aacp"
+                },
+                "KissFM": {
+                    "title": "KissFM",
+                    "frecventa": "96,1 MHz",
+                    "link": "http://80.86.106.143:9128/kissfm.aacp"
+                },
+                "RadioZU": {
+                    "tara": "Romania",
+                    "title": "RadioZU",
+                    "frecventa": "89 MHz",
+                    "link": "http://live.romanticfm.ro:9123/radiozu.aacp?t=1550226122"
+                }
+            }
+
+        },
+        "Belgia":{
+            "steag": "images/flags/Belgia.png",
+            "continent": "Europa",
+            "stati": {
+                "RockFM": {
+                    "title": "RockFM",
+                    "frecventa": "100,6 MHz",
+                    "link": "http://80.86.106.143:9128/rockfm.aacp"
+                },
+                "KissFM": {
+                    "title": "KissFM",
+                    "frecventa": "96,1 MHz",
+                    "link": "http://80.86.106.143:9128/kissfm.aacp"
+                },
+                "RadioZU": {
+                    "tara": "Romania",
+                    "title": "RadioZU",
+                    "frecventa": "89 MHz",
+                    "link": "http://live.romanticfm.ro:9123/radiozu.aacp?t=1550226122"
+                }
+            }
+
+        },
+        "Brazilia":{
+            "steag": "images/flags/Brazilia.png",
+            "continent": "America",
+            "stati": {
+                "RockFM": {
+                    "title": "RockFM",
+                    "frecventa": "100,6 MHz",
+                    "link": "http://80.86.106.143:9128/rockfm.aacp"
+                },
+                "KissFM": {
+                    "title": "KissFM",
+                    "frecventa": "96,1 MHz",
+                    "link": "http://80.86.106.143:9128/kissfm.aacp"
+                },
+                "RadioZU": {
+                    "tara": "Romania",
+                    "title": "RadioZU",
+                    "frecventa": "89 MHz",
+                    "link": "http://live.romanticfm.ro:9123/radiozu.aacp?t=1550226122"
+                }
+            }
+
+        },
+        "Bulgaria":{
+            "steag": "images/flags/Bulgaria.png",
+            "continent": "Europa",
+            "stati": {
+                "RockFM": {
+                    "title": "RockFM",
+                    "frecventa": "100,6 MHz",
+                    "link": "http://80.86.106.143:9128/rockfm.aacp"
+                },
+                "KissFM": {
+                    "title": "KissFM",
+                    "frecventa": "96,1 MHz",
+                    "link": "http://80.86.106.143:9128/kissfm.aacp"
+                },
+                "RadioZU": {
+                    "tara": "Romania",
+                    "title": "RadioZU",
+                    "frecventa": "89 MHz",
+                    "link": "http://live.romanticfm.ro:9123/radiozu.aacp?t=1550226122"
+                }
+            }
+
+        },
+        "Columbia":{
+            "steag": "images/flags/Columbia.png",
+            "continent": "America",
+            "stati": {
+                "RockFM": {
+                    "title": "RockFM",
+                    "frecventa": "100,6 MHz",
+                    "link": "http://80.86.106.143:9128/rockfm.aacp"
+                },
+                "KissFM": {
+                    "title": "KissFM",
+                    "frecventa": "96,1 MHz",
+                    "link": "http://80.86.106.143:9128/kissfm.aacp"
+                },
+                "RadioZU": {
+                    "tara": "Romania",
+                    "title": "RadioZU",
+                    "frecventa": "89 MHz",
+                    "link": "http://live.romanticfm.ro:9123/radiozu.aacp?t=1550226122"
+                }
+            }
+
+        },
+        "Danemarca":{
+            "steag": "images/flags/Danemarca.png",
+            "continent": "Europa",
+            "stati": {
+                "RockFM": {
+                    "title": "RockFM",
+                    "frecventa": "100,6 MHz",
+                    "link": "http://80.86.106.143:9128/rockfm.aacp"
+                },
+                "KissFM": {
+                    "title": "KissFM",
+                    "frecventa": "96,1 MHz",
+                    "link": "http://80.86.106.143:9128/kissfm.aacp"
+                },
+                "RadioZU": {
+                    "tara": "Romania",
+                    "title": "RadioZU",
+                    "frecventa": "89 MHz",
+                    "link": "http://live.romanticfm.ro:9123/radiozu.aacp?t=1550226122"
+                }
+            }
+
+        },
+        "Israel":{
+            "steag": "images/flags/Israel.png",
+            "continent": "Africa",
+            "stati": {
+                "RockFM": {
+                    "title": "RockFM",
+                    "frecventa": "100,6 MHz",
+                    "link": "http://80.86.106.143:9128/rockfm.aacp"
+                },
+                "KissFM": {
+                    "title": "KissFM",
+                    "frecventa": "96,1 MHz",
+                    "link": "http://80.86.106.143:9128/kissfm.aacp"
+                },
+                "RadioZU": {
+                    "tara": "Romania",
+                    "title": "RadioZU",
+                    "frecventa": "89 MHz",
+                    "link": "http://live.romanticfm.ro:9123/radiozu.aacp?t=1550226122"
+                }
+            }
+
+        },
+        "Egipt": {
+            "steag": "images/flags/Egipt.png",
+            "continent": "Europa",
+            "stati": {
+                "RockFM": {
+                    "title": "RockFM",
+                    "frecventa": "100,6 MHz",
+                    "link": "http://80.86.106.143:9128/rockfm.aacp"
+                },
+                "KissFM": {
+                    "title": "KissFM",
+                    "frecventa": "96,1 MHz",
+                    "link": "http://80.86.106.143:9128/kissfm.aacp"
+                },
+                "RadioZU": {
+                    "tara": "Romania",
+                    "title": "RadioZU",
+                    "frecventa": "89 MHz",
+                    "link": "http://live.romanticfm.ro:9123/radiozu.aacp?t=1550226122"
+                }
+            }
+
+        },
+        "Eua": {
+            "steag": "images/flags/EUA.png",
+            "continent": "Asia",
+            "stati": {
+                "RockFM": {
+                    "title": "RockFM",
+                    "frecventa": "100,6 MHz",
+                    "link": "http://80.86.106.143:9128/rockfm.aacp"
+                },
+                "KissFM": {
+                    "title": "KissFM",
+                    "frecventa": "96,1 MHz",
+                    "link": "http://80.86.106.143:9128/kissfm.aacp"
+                },
+                "RadioZU": {
+                    "tara": "Romania",
+                    "title": "RadioZU",
+                    "frecventa": "89 MHz",
+                    "link": "http://live.romanticfm.ro:9123/radiozu.aacp?t=1550226122"
+                }
+            }
+
+        },
+        "Franta": {
+            "steag": "images/flags/Franta.png",
+            "continent": "Europa",
+            "stati": {
+                "RockFM": {
+                    "title": "RockFM",
+                    "frecventa": "100,6 MHz",
+                    "link": "http://80.86.106.143:9128/rockfm.aacp"
+                },
+                "KissFM": {
+                    "title": "KissFM",
+                    "frecventa": "96,1 MHz",
+                    "link": "http://80.86.106.143:9128/kissfm.aacp"
+                },
+                "RadioZU": {
+                    "tara": "Romania",
+                    "title": "RadioZU",
+                    "frecventa": "89 MHz",
+                    "link": "http://live.romanticfm.ro:9123/radiozu.aacp?t=1550226122"
+                }
+            }
+
+        },
+        "Germania": {
+            "steag": "images/flags/Germania.png",
+            "continent": "Europa",
+            "stati": {
+                "RockFM": {
+                    "title": "RockFM",
+                    "frecventa": "100,6 MHz",
+                    "link": "http://80.86.106.143:9128/rockfm.aacp"
+                },
+                "KissFM": {
+                    "title": "KissFM",
+                    "frecventa": "96,1 MHz",
+                    "link": "http://80.86.106.143:9128/kissfm.aacp"
+                },
+                "RadioZU": {
+                    "tara": "Romania",
+                    "title": "RadioZU",
+                    "frecventa": "89 MHz",
+                    "link": "http://live.romanticfm.ro:9123/radiozu.aacp?t=1550226122"
+                }
+            }
+
+        },
+        "Japonia": {
+
+        },
+        "Maroc": {
+
+        },
+        "Mexic": {
+
+        },
+        "Moldova": {
+
+        },
+        "Noua Zeelanda": {
+
+        },
+        "Olanda": {
+
+        },
+        "Portugalia": {
+            
+        },
+        "Rusia": {
+
+        },
+        "Serbia": {
+
+        },
+        "Singapore": {
+
+        },
+        "Spania": {
+
+        },
+        "Usa": {
+
+        },
+        "Turcia": {},
+        "Ungaria": {},
+        "Italia": {},
+        "Elvetia": {},
+        "Finlanda": {},
+        "Norvegia": {},
+        "Suedia": {},
+        "India": {},
+        "Tailanda": {},
+        "Hong Kong":{},
+        "Indonezia":{},
+       
+        "Chile":{},
+        "Canada":{},
+        "Venezuela":{},
+        "Angola":{},
+        "Africa de Sud":{},
+        "Kenya":{},
+        "Qatar":{},
+        "Polonia":{},
+        "Croatia":{}
+    }
+}

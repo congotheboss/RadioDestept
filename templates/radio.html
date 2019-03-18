@@ -1,0 +1,276 @@
+<html>
+
+<head>
+    <title></title>
+
+    <!--Meta (viewpot;Desktopview;)-->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!--Css-->
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap.min.css') }}">
+    <!-- Material Design Bootstrap -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/mdb.min.css') }}">
+    <!--Style CSS-->
+    <!-- <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}"> -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/radio.css') }}">
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lobster+Two:400,400i" rel="stylesheet">
+
+
+
+</head>
+
+<body style="background-image: url({{ url_for('static', filename='images/bg.jpg') }})">
+
+    <!--Main Navigation-->
+    <header>
+        <!-- Navbar -->
+        <nav class="navbar fixed-top navbar-expand-lg navbar-light white scrolling-navbar">
+            <div class="container-fluid">
+        
+                <!-- Brand -->
+                <a class="navbar-brand waves-effect" href="https://mdbootstrap.com/docs/jquery/" target="_blank">
+                    <img src="{{ url_for('static', filename='images/logo.png') }}" class="radioLogoMobile" alt="">
+                </a>
+        
+                <!-- Collapse -->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+        
+                <!-- Links -->
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        
+                    <!-- Left -->
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link waves-effect" href="#">Home
+                                <span class="sr-only">(current)</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link waves-effect" href="https://mdbootstrap.com/docs/jquery/" target="_blank">About
+                                MDB</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link waves-effect"
+                                href="https://mdbootstrap.com/docs/jquery/getting-started/download/" target="_blank">Free
+                                download</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link waves-effect" href="https://mdbootstrap.com/education/bootstrap/"
+                                target="_blank">Free
+                                tutorials</a>
+                        </li>
+                    </ul>
+        
+                    <!-- Right -->
+                    <ul class="navbar-nav nav-flex-icons">
+                        <li class="nav-item">
+                            <a href="https://www.facebook.com/mdbootstrap" class="nav-link waves-effect" target="_blank">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="https://twitter.com/MDBootstrap" class="nav-link waves-effect" target="_blank">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="https://github.com/mdbootstrap/bootstrap-material-design"
+                                class="nav-link border border-light rounded waves-effect" target="_blank">
+                                <i class="fab fa-github mr-2"></i>MDB GitHub
+                            </a>
+                        </li>
+                    </ul>
+        
+                </div>
+        
+            </div>
+        </nav>
+        <!-- Navbar -->
+        <!-- Sidebar -->
+        <div class="sidebar-fixed position-fixed">
+    
+            <a class="logo-wrapper waves-effect">
+                <img class="radioLogo"  src="{{ url_for('static', filename='images/logo.png') }}" alt="">
+            </a>
+    
+            <div class="list-group list-group-flush">
+                <a href="#" class="list-group-item active waves-effect">
+                    <i class="fas fa-broadcast-tower mr-3"></i>Radio
+                </a>
+                <a href="#" class="list-group-item list-group-item-action waves-effect">
+                    <i class="fas fa-compact-disc mr-3"></i>Media
+                </a>
+                <a href="#" class="list-group-item list-group-item-action waves-effect">
+                    <i class="fab fa-aws mr-3"></i>Alexa
+                </a>
+                <a href="#" class="list-group-item list-group-item-action waves-effect">
+                    <i class="fas fa-bed mr-3"></i>Cameara
+                </a>
+                <!-- DropDown Filtru -->
+                <div class="dropdown">
+                
+                    <!--Trigger-->
+                    <a class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">Filtru</a>
+                    <!--Menu-->
+                    <div class="dropdown-menu dropdown-primary">
+                        <!-- Default checked -->
+                        <div class="custom-control custom-radio">
+                            <input type="radio" class="custom-control-input" id="defaultChecked" name="defaultExampleRadios" checked>
+                            <label class="custom-control-label" for="defaultChecked">Toate</label>
+                        </div>
+                        <!-- Default unchecked -->
+                        <div class="custom-control custom-radio">
+                            <input type="radio" class="custom-control-input" id="defaultGroupExample1" name="defaultExampleRadios">
+                            <label class="custom-control-label" for="defaultGroupExample1">Europa</label>
+                        </div>
+                        <div class="custom-control custom-radio">
+                            <input type="radio" class="custom-control-input" id="defaultGroupExample2" name="defaultExampleRadios">
+                            <label class="custom-control-label" for="defaultGroupExample2">America</label>
+                        </div>
+                        <div class="custom-control custom-radio">
+                            <input type="radio" class="custom-control-input" id="defaultGroupExample3" name="defaultExampleRadios">
+                            <label class="custom-control-label" for="defaultGroupExample3">Asia</label>
+                        </div>
+                        <div class="custom-control custom-radio">
+                            <input type="radio" class="custom-control-input" id="defaultGroupExample4" name="defaultExampleRadios">
+                            <label class="custom-control-label" for="defaultGroupExample4">Africa</label>
+                        </div>
+                        <div class="custom-control custom-radio">
+                            <input type="radio" class="custom-control-input" id="defaultGroupExample5" name="defaultExampleRadios">
+                            <label class="custom-control-label" for="defaultGroupExample5">Oceania</label>
+                        </div>
+                        
+                        
+                    </div>
+                </div>
+                <!--/Dropdown primary-->
+                
+                <!-- DropDown Filtru END -->
+                <a href="#" class="list-group-item list-group-item-action waves-effect radioButtonBack">
+                    <i class="fas fa-arrow-left mr-3"></i>
+                </a>
+
+            </div>
+            </div>
+    
+        </div>
+        <!-- Sidebar -->
+    
+    </header>
+    <!--Main Navigation-->
+
+    <main class="radioMain mx-lg-5">
+        <div class="container-fluid">
+    
+            <!-- Heading -->
+            <div class="card mb-4 wow fadeIn">
+    
+                <!--Card content-->
+                <div class="card-body d-sm-flex justify-content-between">
+    
+                    <h2>Alege tara (A-Z)</h2>
+    
+                    <form class="d-flex justify-content-center">
+                        <!-- Default input -->
+                        <input type="search" placeholder="Type your query" aria-label="Search" class="form-control">
+                        <button class="btn btn-primary btn-sm my-0 p" type="submit">
+                            <i class="fas fa-search"></i>
+                        </button>
+    
+                    </form>
+    
+                </div>
+    
+            </div>
+            <!-- Heading -->
+            
+            <div id="statii-tati"></div>
+
+            <div class="clear"></div>
+
+
+        </div>
+    </main>
+
+
+
+    <!--Script Js-->
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="{{ url_for('static', filename='js/popper.min.js') }}"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="{{ url_for('static', filename='js/bootstrap.min.js') }}"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="{{ url_for('static', filename='js/mdb.js') }}"></script>
+
+    <!--Script pentru load StatiiRadio-->
+    <script type='text/javascript'>
+        var countries = [];
+        $.ajax({
+            url: '/static/StatiRadio.json',
+            type: 'GET',
+            success: function (data) {
+                for (var i in data["tari"]) {
+                    // console.log("Log: "+i);
+                    if (!countries.includes(i)) {
+                        countries.push(i);
+                    }
+                }
+                
+            },
+            async: false
+        });
+
+        //Test view statii radio
+        var current_object;
+        for(var i = 0;i<countries.length;i++){
+            if(i % 4 == 0){
+                document.getElementById("statii-tati").appendChild(document.createElement("br"));
+                document.getElementById("statii-tati").appendChild(document.createElement("div"));
+                document.getElementById("statii-tati").lastChild.className = "row";
+                current_object = document.getElementById("statii-tati").lastChild
+            }
+            current_object.appendChild(document.createElement("div"));
+            current_object.lastChild.className = "col";
+            current_object.lastChild.appendChild(document.createElement("div"));
+            current_object.lastChild.childNodes[0].className = "card";
+            current_object.lastChild.childNodes[0].style = "background: radial-gradient( rgba(0, 0, 0, 0.7), rgba(60, 60, 60, 0.5) ), url('/static/images/flags/"+countries[i]+".png'); background-size: cover; background-repeat: no-repeat;";
+            current_object.lastChild.childNodes[0].appendChild(document.createElement("div"));
+            current_object.lastChild.childNodes[0].childNodes[0].className = "card-body";
+            current_object.lastChild.childNodes[0].childNodes[0].appendChild(document.createElement("h5"));
+            current_object.lastChild.childNodes[0].childNodes[0].childNodes[0].className = "card-title";
+            current_object.lastChild.childNodes[0].childNodes[0].childNodes[0].innerHTML = countries[i];
+            current_object.lastChild.childNodes[0].childNodes[0].childNodes[0].style = "color: white";
+            current_object.lastChild.childNodes[0].childNodes[0].appendChild(document.createElement("a"));
+            current_object.lastChild.childNodes[0].childNodes[0].childNodes[1].className = "alignbtn";
+            current_object.lastChild.childNodes[0].childNodes[0].childNodes[1].href = "/radio_player?tara="+countries[i];
+            current_object.lastChild.childNodes[0].childNodes[0].childNodes[1].appendChild(document.createElement("button"));
+            current_object.lastChild.childNodes[0].childNodes[0].childNodes[1].childNodes[0].type = "buton";
+            current_object.lastChild.childNodes[0].childNodes[0].childNodes[1].childNodes[0].className = "btn btn-primary btn-sm waves-effect waves-light";
+            current_object.lastChild.childNodes[0].childNodes[0].childNodes[1].childNodes[0].innerHTML = "Asculta";
+
+        }
+    </script>
+    
+
+    <script>
+     
+    </script>
+
+</body>
+
+</html>

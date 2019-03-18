@@ -1,0 +1,53 @@
+{
+  "stations": {
+    "RockFM": {
+      "tara":"Romania",
+      "title":"RockFM",
+      "frecventa":"100,6 MHz",
+      "link":"http://80.86.106.143:9128/rockfm.aacp"
+
+    },
+    "KissFM": {
+      "tara":"Romania",
+      "title":"KissFM",
+      "frecventa":"96,1 MHz",
+      "link":"http://80.86.106.143:9128/kissfm.aacp"
+    },
+    "RadioZU": {
+      "tara":"Romania",
+      "title":"RadioZU",
+      "frecventa":"89 MHz",
+      "link":"http://live.romanticfm.ro:9123/radiozu.aacp?t=1550226122"
+    },
+    "AtenaFM":{
+      "tara":"Grecia",
+      "title":"AtenaFM",
+      "frecventa":"87,5 MHz",
+      "link":"http://s3.onweb.gr:8878/;?t=1550149669"
+    },
+    "PlayFM":{
+      "tara":"Spania",
+      "title":"PlatFM",
+      "frecventa":"87,5 MHz",
+      "link":"http://5.79.66.113:8006/stream?t=1550150831"
+    },
+    "J-PopTokyo":{
+      "tara":"Japonia",
+      "title":"J-PopTokyo",
+      "frecventa":"87,5 MHz",
+      "link":"http://agnes.torontocast.com:8102/;?t=1550150963"
+    },
+    "OuiFM":{
+      "tara":"Franta",
+      "title":"OuiFM",
+      "frecventa":"90,1 MHz",
+      "link":"http://target-ad-1.cdn.dvmr.fr/ouifm-high.mp3?t=1550151807"
+    },
+    "KissFM Moldova":{
+      "tara":"Moldova",
+      "title":"KissFM Moldova",
+      "frecventa":"92,1 MHz",
+      "link":"http://listen.radio.garden/streams/c/chisinau/kissfm.php?1551004086262"
+    }
+  }
+}

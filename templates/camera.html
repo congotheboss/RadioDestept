@@ -1,0 +1,261 @@
+<html>
+
+<head>
+    <title></title>
+
+    <!--Meta (viewpot;Desktopview;)-->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!--Css-->
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap.min.css') }}">
+    <!-- Material Design Bootstrap -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/mdb.min.css') }}">
+    <!--Style CSS-->
+    <!-- <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}"> -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/radio.css') }}">
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lobster+Two:400,400i" rel="stylesheet">
+
+
+
+</head>
+
+<body style="background-image: url({{ url_for('static', filename='images/bg.jpg') }})">
+
+    <!--Main Navigation-->
+    <header>
+        <!-- Navbar -->
+        <nav class="navbar fixed-top navbar-expand-lg navbar-light white scrolling-navbar">
+            <div class="container-fluid">
+
+                <!-- Brand -->
+                <a class="navbar-brand waves-effect" href="https://mdbootstrap.com/docs/jquery/" target="_blank">
+                    <img src="{{ url_for('static', filename='images/logo.png') }}" class="radioLogoMobile" alt="">
+                </a>
+
+                <!-- Collapse -->
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Links -->
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                    <!-- Left -->
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link waves-effect" href="#">Home
+                                <span class="sr-only">(current)</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link waves-effect" href="https://mdbootstrap.com/docs/jquery/"
+                                target="_blank">About
+                                MDB</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link waves-effect"
+                                href="https://mdbootstrap.com/docs/jquery/getting-started/download/"
+                                target="_blank">Free
+                                download</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link waves-effect" href="https://mdbootstrap.com/education/bootstrap/"
+                                target="_blank">Free
+                                tutorials</a>
+                        </li>
+                    </ul>
+
+                    <!-- Right -->
+                    <ul class="navbar-nav nav-flex-icons">
+                        <li class="nav-item">
+                            <a href="https://www.facebook.com/mdbootstrap" class="nav-link waves-effect"
+                                target="_blank">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="https://twitter.com/MDBootstrap" class="nav-link waves-effect" target="_blank">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="https://github.com/mdbootstrap/bootstrap-material-design"
+                                class="nav-link border border-light rounded waves-effect" target="_blank">
+                                <i class="fab fa-github mr-2"></i>MDB GitHub
+                            </a>
+                        </li>
+                    </ul>
+
+                </div>
+
+            </div>
+        </nav>
+        <!-- Navbar -->
+        <!-- Sidebar -->
+        <div class="sidebar-fixed position-fixed">
+
+            <a class="logo-wrapper waves-effect">
+                <img class="radioLogo" src="{{ url_for('static', filename='images/logo.png') }}" alt="">
+            </a>
+
+            <div class="list-group list-group-flush">
+                <a href="#" class="list-group-item  waves-effect">
+                    <i class="fas fa-broadcast-tower mr-3"></i>Radio
+                </a>
+                <a href="#" class="list-group-item list-group-item-action waves-effect">
+                    <i class="fas fa-compact-disc mr-3"></i>Media
+                </a>
+                <a href="#" class="list-group-item list-group-item-action waves-effect">
+                    <i class="fab fa-aws mr-3"></i>Alexa
+                </a>
+                <a href="#" class="list-group-item active list-group-item-action waves-effect">
+                    <i class="fas fa-bed mr-3"></i>Cameara
+                </a>
+               
+
+                <!-- DropDown Filtru END -->
+                <a href="#" class="btn-floating peach-gradient">
+                    <i class="fas fa-arrow-left mr-3"></i> 
+                </a>
+
+            </div>
+        </div>
+
+        </div>
+        <!-- Sidebar -->
+
+    </header>
+    <!--Main Navigation-->
+
+    <main class="radioMain mx-lg-5">
+        <div class="container-fluid">
+
+            <div class="row">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Temperatura</h5>
+                        <img class="imgCamera" src="{{ url_for('static', filename='images/camera/002-warm.png') }}">
+                        <h6 class="dateCamera"> 36C</h6>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Umiditate</h5>
+                        <img class="imgCamera" src="{{ url_for('static', filename='images/camera/003-humidity.png') }}">
+                        <h6 class="dateCamera"> 50%</h6>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Co2</h5>
+                        <img class="imgCamera" src="{{ url_for('static', filename='images/camera/004-co2.png') }}">
+                        <h6 class="dateCamera"> 36C</h6>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Voc</h5>
+                        <img class="imgCamera" src="{{ url_for('static', filename='images/camera/006-trash.png') }}">
+                        <h6 class="dateCamera"> 36C</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Prize</h5>
+                        <div class="col cameraPriza">
+                            <img class="imgCamera" src="{{ url_for('static', filename='images/camera/007-plug.png') }}">
+                            <label class="switch">
+                                <input type="checkbox">
+                                <span class="slider"></span>
+                            </label>
+                        </div>
+                        <div class="col cameraPriza">
+                            <img class="imgCamera" src="{{ url_for('static', filename='images/camera/007-plug.png') }}">
+                            <label class="switch">
+                                <input type="checkbox">
+                                <span class="slider"></span>
+                            </label>
+                        </div>
+                        <div class="col cameraPriza">
+                            <img class="imgCamera" src="{{ url_for('static', filename='images/camera/007-plug.png') }}">
+                            <label class="switch">
+                                <input type="checkbox">
+                                <span class="slider"></span>
+                            </label>
+                        </div>
+                        <div class="col cameraPriza">
+                            <img class="imgCamera" src="{{ url_for('static', filename='images/camera/007-plug.png') }}">
+                            <label class="switch">
+                                <input type="checkbox">
+                                <span class="slider"></span>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Intensitate<br> Luminoasa</h5>
+                        <img class="imgCamera" src="{{ url_for('static', filename='images/camera/008-sun.png') }}">
+                        <h6 class="dateCamera"> 600Lux</h6>
+                    </div>
+                </div>
+            </div>
+
+           
+
+            <div class="clear"></div>
+
+
+        </div>
+    </main>
+
+
+
+    <!--Script Js-->
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="{{ url_for('static', filename='js/popper.min.js') }}"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="{{ url_for('static', filename='js/bootstrap.min.js') }}"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="{{ url_for('static', filename='js/mdb.js') }}"></script>
+
+    <!--Script pentru load StatiiRadio-->
+    <script type='text/javascript'>
+        var countries = [];
+        $.ajax({
+            url: '/static/StatiRadio.json',
+            type: 'GET',
+            success: function (data) {
+                for (var i in data["tari"]) {
+                    // console.log("Log: "+i);
+                    if (!countries.includes(i)) {
+                        countries.push(i);
+                    }
+                }
+
+            },
+            async: false
+        });
+
+        
+    </script>
+
+
+</body>
+
+</html>

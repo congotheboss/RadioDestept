@@ -1,0 +1,63 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title></title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap.min.css') }}">
+
+  <!-- Place favicon.ico in the root directory -->
+
+
+</head>
+
+<body>
+    
+      <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <form method="get" action="/radio">
+                <div class="form-group">
+                  <label for="sel1">Country:</label>
+                  <select name="country" class="form-control" id="sel1">
+                  </select>
+                </div>
+                <input type="submit" class="btn btn-info" value="Go To Radio">
+            </form>
+            </div>
+          </div>
+
+        </div>
+
+  <!-- Add your site or application content here -->
+
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.3.1.min.js"><\/script>')</script>
+  
+  <!--Script pentru load StatiiRadio-->
+  <script type='text/javascript' >
+  var countries = [];
+  $.ajax({
+    url: '/static/local_station.json',
+    type: 'GET',
+    success: function(data) {
+      for(var i in data["stations"]){
+        if(!countries.includes(data["stations"][i].tara)){
+          countries.push(data["stations"][i].tara);
+        }
+      }
+      var select = document.getElementById("sel1");
+      for(var i in countries) {
+          var option = document.createElement('option');
+          option.text = option.value = countries[i];
+          select.add(option, 0);
+      }
+    }});
+  </script>
+</body>
+
+
+</html>
